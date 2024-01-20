@@ -5,3 +5,16 @@
     line-height: 48px;
     font-weight: 500;
 }
+
+@media (max-width: 320px) {
+    .profile__name {
+        margin: 0;
+        margin-right: 10px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

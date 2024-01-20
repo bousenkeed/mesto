@@ -1,3 +1,10 @@
 .profile__data-container {
     margin-right: 244px;
 }
+
+@media (max-width: 320px) {
+    .profile__data-container  {
+        margin: 0;
+        margin-top: 26px;
+    }
+}

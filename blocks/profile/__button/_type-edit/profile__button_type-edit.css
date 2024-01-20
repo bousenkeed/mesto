@@ -1,8 +1,17 @@
 .profile__button_type-edit {
     width: 24px;
     height: 24px;
-    background-image: url(../../../../images/Edit\ Button.svg);
+    background-image: url(../../../../images/Edit\ Button_mobile.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 15px;
+}
+
+@media (max-width: 320px) {
+    .profile__button_type-edit {
+        margin: 0;
+        width: 18px;
+        height: 18px;
+        padding: 0;
+    }
 }

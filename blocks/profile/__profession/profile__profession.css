@@ -2,3 +2,14 @@
     font-size: 18px;
     line-height: normal;
 }
+
+@media (max-width: 320px) {
+    .profile__profession {
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

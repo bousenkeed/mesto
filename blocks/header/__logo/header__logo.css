@@ -6,3 +6,12 @@
     margin-bottom: 41px;
     margin-top: 45px;
 }
+
+@media (max-width: 320px) {
+    .header__logo {
+        background-image: url(../../../images/logo_mobile.svg);
+        width: 103.736px;
+        height: 24.396px;
+        margin: 28px 0px 31px 27px;
+    }
+}
