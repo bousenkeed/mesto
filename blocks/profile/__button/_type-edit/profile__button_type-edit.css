@@ -1,0 +1,8 @@
+.profile__button_type-edit {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../../images/Edit\ Button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+}

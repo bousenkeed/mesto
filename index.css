@@ -2,3 +2,35 @@
 /* Нормалайз всегда долже идти первый */
 @import url(./vendor/fonts/fonts.css);
 @import url(./style.css);
+
+/* body */
+@import url(./blocks/body/root.css);
+@import url(./blocks/page/page.css);
+
+/* Header */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+
+/* Main section profile */
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/__avatar/profile__avatar.css);
+@import url(./blocks/profile/__data-container/profile__data-container.css);
+@import url(./blocks/profile/__name-container/profile__name-container.css);
+@import url(./blocks/profile/__name/profile__name.css);
+@import url(./blocks/profile/__button/profile__button.css);
+@import url(./blocks/profile/__button/_type-edit/profile__button_type-edit.css);
+@import url(./blocks/profile/__profession/profile__profession.css);
+@import url(./blocks/profile/__button/_type_add/profile__button_type_add.css);
+
+/* Main section cards */
+@import url(./blocks/cards-container/cards-container.css);
+
+@import url(./blocks/card-item/card-item.css);
+@import url(./blocks/card-item/__image/card-item__image.css);
+@import url(./blocks/card-item/__text-container/card-item__text-container.css);
+@import url(./blocks/card-item/__name/card-item__name.css);
+@import url(./blocks/card-item/__like/card-item__like.css);
+
+/* Footer */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__text-container/footer__text-container.css);
